@@ -1,0 +1,14 @@
+{
+  "project": "Lantern",
+  "qa_count": 2,
+  "explanation_count": 1,
+  "chunk_chars": 3000,
+  "max_calls": 30,
+  "max_records": 90,
+  "max_output_tokens": 2048,
+  "max_total_output_tokens": 61440,
+  "timeout": 30,
+  "retries": 2,
+  "concurrency": 2,
+  "evaluation_exclude": ["eval", "evaluation", "review_annotations", "held-out/**"]
+}

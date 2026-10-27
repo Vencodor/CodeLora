@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "local-synthdata"
+version = "0.1.0"
+description = "Source-grounded local synthetic QA and explanation datasets"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+synthdata = "synthdata.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["synthdata*"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

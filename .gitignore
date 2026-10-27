@@ -1,1 +1,11 @@
-./idea.txt
+idea.txt
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.ruff_cache/
+.mypy_cache/
+outputs/
+synth-output/
+.test-tmp/
+.env
